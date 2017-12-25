@@ -1,0 +1,3 @@
+TEXLUA_BYTECODE_EXTENSION=texluabc
+
+!texluac = |> @(LUATEX) --luaconly @(LUATEX_LUAC_FLAGS) -o %o -- %f |> %B.$(TEXLUA_BYTECODE_EXTENSION)
